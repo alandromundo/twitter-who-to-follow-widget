@@ -1,0 +1,29 @@
+.tw-Widget-Container {
+  width: 348px;
+  background-color: #16181c;
+  border-radius: 12px;
+  overflow: hidden; 
+}
+
+.tw-Widget-Title, .tw-Widget-Footer {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding: 16px;
+  transition: .2s ease background-color;
+}
+
+.tw-Widget-Footer:hover {
+  background-color: #1d1f23;
+}
+
+.tw-Widget-Footer {
+  color: rgb(58, 101, 218);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tw-Widget-Title {
+  padding: 12px 16px;
+  font-weight: bold;
+}

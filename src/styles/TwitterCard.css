@@ -1,0 +1,81 @@
+.tw-Card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  transition: .2s ease background-color;
+  cursor: pointer;
+}
+
+.tw-Card:hover {
+  background-color:#1d1f23;
+}
+
+.tw-Card-Header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tw-Card-Img {
+  width: 48px;
+  border-radius: 50%;
+}
+
+.tw-Card-Info {
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-Card-Name {
+  margin-bottom: 2px;
+}
+
+.tw-Card-userName {
+  opacity: .5;
+}
+
+.tw-Card-Aside-Follow-Button {
+  border-radius: 20px;
+  border: 1px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .2s ease opacity;
+}
+
+.tw-Card-Aside-Following-Button {
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background-color: #1d1f23;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .2s ease opacity;
+  width: 110px;
+}
+
+.tw-Card-Aside-Follow-Button:hover {
+  opacity: .85;
+}
+
+.tw-Card-Aside-Following-Button:hover .tw-Card-Button-Text-Following{
+  display: none;
+}
+
+.tw-Card-Aside-Following-Button:hover .tw-Card-Button-Stop-Following {
+  display: block;
+}
+
+.tw-Card-Aside-Following-Button:hover {
+  border-color: rgb(167, 34, 34);
+  background-color: #2a1f1f;
+  color: rgb(205, 40, 40);
+  
+  transition: .1s ease all;
+}
+
+.tw-Card-Button-Stop-Following {
+  display: none;
+}
